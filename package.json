@@ -1,0 +1,16 @@
+{
+  "name": "jsmockr",
+  "version": "0.0.1",
+  "description": "A library to easily mock javascript objects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mock",
+    "unit",
+    "test"
+  ],
+  "author": "Eric Mackrodt",
+  "license": "ISC"
+}
