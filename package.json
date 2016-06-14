@@ -4,7 +4,7 @@
   "description": "A library to easily mock javascript objects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp mocha"
   },
   "keywords": [
     "mock",
@@ -12,5 +12,11 @@
     "test"
   ],
   "author": "Eric Mackrodt",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "gulp": "^3.9.1",
+    "gulp-mocha": "^2.2.0",
+    "mocha": "^2.5.3"
+  }
 }
